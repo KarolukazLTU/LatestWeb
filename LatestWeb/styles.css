@@ -1,0 +1,130 @@
+body {
+	background-color: #01579B;
+}
+
+#wrapper {
+	width: 90%;
+	height: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	background-color: #0288D1;
+	border-radius: 3px;
+}
+#wrapper2 {
+	width: 95%;
+	height: 95%;
+	margin-left: 2.5%;
+	margin-top: 2%;
+	background-color: #0288D1;
+	color: #ff8300;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	border-radius: 3px;
+}
+#header {
+	width: 100%;
+	height: 20%;
+}
+#menutable td {
+	height: 25%;
+	width: 103px;
+	color: Black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 100%;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #00BCD4;
+	border: 3px solid #0288D1;
+}
+#menutable {
+	margin-left: auto;
+	margin-right: auto;
+}
+#info {
+	width: 47.5%;
+	height: 415%;
+	border: 3px solid #0288D1;
+	border-radius: 5px;
+	margin-top: 3%;
+	margin-left: auto;
+	float: left;
+	color: White;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 150%;
+	background-color: #40C4FF;
+}
+#info2 {
+	width: 47.5%;
+	height: 415%;
+	border: 3px solid #0288D1;
+	border-radius: 5px;
+	margin-top: 3%;
+	margin-right: auto;
+	float: right;
+	color: White;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 150%;
+	background-color: #40C4FF;
+}
+a {
+	color: White;
+	font-family: 'Raleway', sans-serif;
+	font-size: 150%;
+	text-align: center;
+	text-decoration: none;
+}
+@media handheld, only screen and (max-width: 480px) {
+	#wrapper {
+		width: 412px;
+		height: 732px;
+		background-color: #0288D1;
+		border-radius: 3px;
+	}
+	#header {
+		width: 100%;
+		height: 292.8px;
+	}
+	#info {
+		width: 48%;
+		height: 100%;
+		border: 3px solid #0288D1;
+		border-radius: 5px;
+		float: left;
+		color: White;
+		font-family: 'Merriweather Sans', sans-serif;
+		font-size: 150%;
+		background-color: #40C4FF;
+		margin-bottom: auto;
+	}
+}
+	#info2 {
+		width: 48%;
+		height: 100%;
+		border: 3px solid #0288D1;
+		border-radius: 5px;
+		float: right;
+		color: White;
+		font-family: 'Merriweather Sans', sans-serif;
+		font-size: 150%;
+		background-color: #40C4FF;
+		margin-top: auto;
+	}
+	#menutable td {
+		height: 100%;
+		width: 100%;
+		color: Black;
+		font-family: 'Raleway', sans-serif;
+		font-size: 100%;
+		text-align: center;
+		border-radius: 5px;
+		background-color: #00BCD4;
+		border: 3px solid #0288D1;
+	}
+	#menutable {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
